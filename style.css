@@ -11,20 +11,6 @@ body {
     background: #ebebeb;
 }
 
-#header {
-    height: 75px;
-    text-align: center;
-    padding-top: 20px;
-    margin: 10px;
-}
-
-#nav {
-    height: 75px;
-    text-align: center;
-    padding-top: 25px;
-    margin: 10px 10px 5px 10px;
-}
-
 #section {
     width: 495px;
     margin: 14px 8px 10px 10px;
@@ -79,15 +65,16 @@ h1, h2, h3 {
     padding-top: 13px;
 }
 
-#footer {
-    clear: both;
-    margin: 10px 10px 10px 10px;
-    display: inline-block;
-    width: 940px;
-    height: 75px;
-    padding-top: 25px;
+.fullPage {
+    text-align: center;
+    padding: 40px;
+    margin: 10px;
+    background: #ebebeb;
 }
 
-#footerHeader {
-    text-align: center;
+#footer {
+    clear: both;
+    content: "";
+    display: table;
+    width: 860px;
 }
