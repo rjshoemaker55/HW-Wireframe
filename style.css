@@ -13,7 +13,7 @@ body {
 
 #section {
     width: 495px;
-    margin: 14px 8px 10px 10px;
+    margin: 10px 10px;;
     float: left;
     text-align: center;
     height: 260px;
@@ -28,14 +28,12 @@ body {
 }
 
 #aside {
-    width: 422px;
-    margin: 14px 10px 10px 10px;
-    float: right;
-    height: 260px;
-}
-
-#asideHeader {
+    width: 425px;
+    margin: 10px 10px;
+    float: left;
+    height: 245px;
     text-align: center;
+    padding-top: 15px;
 }
 
 #headerTags {
@@ -53,16 +51,12 @@ h1, h2, h3 {
     font-size: 18px;
 }
 
-#paraTag {
+#paraBox {
     width: 430px;
     margin: 10px 10px 10px 15px;
     color: #777;
     background: #ebebeb;
-    height: 45px;
-}
-
-#paraText {
-    padding-top: 13px;
+    padding: 13px 0px;
 }
 
 .fullPage {
@@ -76,5 +70,9 @@ h1, h2, h3 {
     clear: both;
     content: "";
     display: table;
-    width: 860px;
+    margin: auto;
+    width: 859px;
+    border-top:8px;
+    border-style: solid;
+    border-color: #777;
 }
