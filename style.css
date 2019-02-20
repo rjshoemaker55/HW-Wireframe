@@ -13,7 +13,7 @@ body {
 
 #section {
     width: 495px;
-    margin: 10px 10px;;
+    margin: 10px 10px 16px 10px;
     float: left;
     text-align: center;
     height: 260px;
@@ -72,7 +72,7 @@ h1, h2, h3 {
     display: table;
     margin: auto;
     width: 859px;
-    border-top:8px;
+    /* border-top:8px; */
     border-style: solid;
     border-color: #777;
 }
